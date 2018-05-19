@@ -1,9 +1,10 @@
 body,
 header{
   background-color: black;
+  text-align: center;
 }
 
-h1{
+#MainTitle{
   font-family: Verdana;
   font-weight: Normal;
   font-size: 50px;
@@ -11,7 +12,25 @@ h1{
   text-align: center;
 }
 
+.titles{
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42;
+  color: White;
+}
+
+h2{
+  font-family: Verdana;
+  font-size: 21px;
+  color: Gray;
+}
+
 .link{
   color: Aquamarine;
   font-size: 16px;
+}
+
+footer{
+  text-align: right;
+  color: Gray;
 }
